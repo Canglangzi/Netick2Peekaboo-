@@ -1,0 +1,28 @@
+{
+    "name": "CocKleBurs.Steamworks",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Unity.Collections",
+        "CocKleBurs.Core",
+        "CocKleBurs.CodeGen",
+        "CocKleBurs.GameDebug",
+        "CocKleBurs.System",
+        "CocKleBurs.Utils",
+        "Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Facepunch.Steamworks.Win64.dll",
+        "Netick.Unity.dll",
+        "Netick.Unity.Pro.dll",
+        "Netick.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

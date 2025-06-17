@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d186ffb3adf13440b52f6133413e225, type: 3}
+  m_Name: GamePlaySettings
+  m_EditorClassIdentifier: 
+  PoolSettings:
+    ObjectPools: []
+  InstanceSettings:
+    GameInstancePrefab:
+      m_AssetGUID: 95789e86484d4204c8c2694a5fdbfe5f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    DontDestroyOnLoad: 1
+    SceneConfig:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  SteamSettings:
+    GameAPI: 480
+    SupportPage: https://store.steampowered.com/
+  GameConfig:
+    PlayerPrefab: {fileID: -6762099674503772852, guid: fb55949767fd74c4284b6b6afb21cf1e, type: 3}
+    PlayerPoolSize: 10
+    PoolcAtive: 0
+    EnableTestMode: 1
+    TestPlayerPrefab: {fileID: 2135409980283091925, guid: 5b2acc075d55c974bb4594d4c5b5a4a9, type: 3}

@@ -1,0 +1,33 @@
+{
+    "name": "Peekaboo.GamePlay",
+    "rootNamespace": "Peekaboo.GamePlay",
+    "references": [
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:8c4dd21966739024fbd72155091d199e",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:2c5a340859eff1842ac20ead051b9554",
+        "GUID:7ca8ba158c14dd84fbea1b462b9da37a",
+        "GUID:d461b3397032f724a9c23b7f82df5a79",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:dc47925d1a5fa2946bdd37746b2b5d48"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Netick.dll",
+        "Netick.Unity.dll",
+        "Netick.Pro.dll",
+        "Unity.Burst.Unsafe.dll",
+        "Facepunch.Steamworks.Win64.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
