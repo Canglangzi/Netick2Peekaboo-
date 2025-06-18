@@ -3,8 +3,13 @@ using System.Threading.Tasks;
 using CockleBurs.GamePlay;
 using Cysharp.Threading.Tasks;
 using Netick.Unity;
+using Unity.Burst;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using Object = UnityEngine.Object;
 
 public static partial class Game
@@ -80,4 +85,38 @@ public static partial class Game
         }
 
     }
+}
+public static unsafe class StringId
+{
+    public static int StringToHash(string str)
+    {
+        if (string.IsNullOrEmpty(str))
+            return 0;
+
+        fixed (char* ptr = str)
+        {
+            return ComputeHashBurst(ptr, str.Length);
+        }
+    }
+
+   // [BurstCompile]
+    private static int ComputeHashBurst(char* chars, int length)
+    {
+        int hash = 23;
+        for (int i = 0; i < length; ++i)
+        {
+            hash = hash * 31 + chars[i];
+        }
+        return hash;
+    }
+
+#if !UNITY_EDITOR
+    // AOT预编译（针对不支持JIT的平台）
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void Init()
+    {
+        // 触发Burst编译
+        ComputeHashBurst(null, 0);
+    }
+#endif
 }

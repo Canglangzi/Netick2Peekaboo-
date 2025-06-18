@@ -398,7 +398,7 @@ MonoBehaviour:
   RenderTransform: {fileID: 4207571341088589263}
   TeleportDistance: 50
   PositionPrecision: 3
-  Settings: 4
+  Settings: 28
   TransformSpace: 1
   UseForAOIPosition: 1
   EnablePredictionErrorCorrectionSmoothing: 0
@@ -420,10 +420,10 @@ MonoBehaviour:
   _AoILayer: 0
   _BroadPhaseFilter: 0
   _NarrowPhaseFilter: 0
-  _PredictionMode: 0
+  _PredictionMode: 1
   _SpatialPrioritization: 0
   AddToNetworkLoop: 1
-  _isPersistent: 0
+  _isPersistent: 1
   PrefabRoot: {fileID: 0}
   Children: []
   PrefabIndex: -1

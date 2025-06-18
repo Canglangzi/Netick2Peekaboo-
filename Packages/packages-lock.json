@@ -8,14 +8,14 @@
       "hash": "f213ff497e4ff462a77319cf677cf20cc0860ca9"
     },
     "com.karrar.netick": {
-      "version": "https://github.com/NetickNetworking/NetickForUnity.git",
+      "version": "https://github.com/karrarrahim/NetickProForUnity.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.addressables": "1.22.3"
       },
-      "hash": "555796dee40298a31bc0171779e0a4166ca249a7"
+      "hash": "8e2db0f357c322686fd963f9b6044f9585c87d35"
     },
     "com.unity.addressables": {
       "version": "2.4.3",

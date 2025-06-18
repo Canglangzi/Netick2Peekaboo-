@@ -24,7 +24,7 @@ namespace CockleBurs.GamePlay
             public bool isNetworkObject;
             public uint hashId;
         }
-        
+       
         [System.Serializable]
         public class ObjectPoolSettings
         {
